@@ -562,4 +562,14 @@
     background: white;
     border-radius: 5px;
   }
+  .news-item-top .datetime {
+    color: #b4b4ba;
+    font-weight: bold;
+    position: unset;
+    right: 15px;
+    top: 38px;
+    z-index: 1;
+    background: transparent;
+    padding-left: 0;
+}
 }
