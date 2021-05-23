@@ -429,7 +429,9 @@
     position: absolute;
     left: -20px;
   }
-  .news-child .news-item .news-title
+  .news-child {display: none;}
+
+  .news-child {display: none;}.news-item .news-title
   {
       padding: 0 10px;
   }
