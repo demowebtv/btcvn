@@ -664,6 +664,42 @@ ul {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.scroll-table {
+    overflow-y: auto;
+    scrollbar-color: #eee #fff;
+    scrollbar-width: thin;
+}
+/* width */
+.scroll-table::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 3px;
+}
+
+/* Track */
+.scroll-table::-webkit-scrollbar-track {
+    border-radius: 3px;
+}
+
+/* Handle */
+.scroll-table::-webkit-scrollbar-thumb {
+    background: #eee;
+    border-radius: 3px;
+}
+
+    /* Handle on hover */
+    .scroll-table::-webkit-scrollbar-thumb:hover {
+        background: #686868;
+    }
+
+.scroll-table::-webkit-scrollbar-track-piece:end {
+    background: transparent;
+    margin-bottom: 50px;
+}
+
+.scroll-table::-webkit-scrollbar-track-piece:start {
+    background: transparent;
+}
 .cate-list::-webkit-scrollbar {
   background-color: #fff;
   width: 8px;
