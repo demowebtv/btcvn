@@ -18,7 +18,9 @@
   .banner {
     background-size: 1170px 135px;
   }
-
+  .box-news .news-item-top {
+    height: 354px;
+  }
   .navbar .navbar-nav .nav-link {
     font-size: 14px;
     padding: 19px 15px;
@@ -148,6 +150,10 @@
     padding: 19px 6px;
     font-size: 13px;
   }
+  .box-news .news-item-top {
+    height: 360px;
+  }
+  .list-item{padding-top: 15px;}
   .cate-ul li {
     padding-left: 10px;
     padding-right: 10px;
@@ -510,22 +516,18 @@
   .site-menu{
     display: block;
   }
-  .news-item-top .datetime {
-   color: #b4b4ba;
-   font-weight: bold;
-   position: unset;
-   right: 15px;
-   top: 38px;
-   z-index: 1;
-   background: transparent;
-   padding-left: 0;
-}
+  .box-news .news-item-top .content .news-title{line-height: 20px;}
+  .box-news .news-item-top .content .news-title .time{font-size: 14px;}
 .list-item{padding-top: 15px;}
-.box-news .news-item-top .content{padding: 13px 17px 10px;}
+.box-news .news-item-top .content{padding: 13px 17px 10px;position: relative;}
 .ct-content-item .title{padding-right: 0px;}
 .ct-content-button{margin: 0;}
 .cate-tab-title{height: 45px;}
 .cate-tab .ct-content-button .btn-viewmore{margin-bottom: 20px;}
+.box-news .news-item-top{height: auto;}
+.box-news .news-item-top .content .sapo {
+  font-size: 14px;clear: both;
+}
 }
 
 @media screen and (max-width: 767px) {
@@ -636,7 +638,7 @@
     max-height: 48px;
   }
   .box-news .news-item-top .content .sapo {
-    font-size: 14px;
+    font-size: 14px;clear: both;
   }
   .news-child .news-item .news-title a {
     font-size: 14px;
