@@ -220,13 +220,11 @@ ul {
   margin-right: 0px;
 }
 .news-item .image {
-  float: left;
   width: 100%;
   max-height: 141px;
-    overflow: hidden;
+  overflow: hidden;
 }
 .news-child .news-item .content {
-  float: left;
   width: 100%;
 }
 .news-child .news-item .news-title {
