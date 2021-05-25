@@ -42,8 +42,9 @@ ul {
   float: right;
   color: white;
   margin-left: 20px;
-  font-weight: bold;
+  font-weight: bold;font-size: 14px;
 }
+.icon-search{font-size: 20px;}
 .header-social li {
   float: left;
   margin-left: 20px;
@@ -73,7 +74,7 @@ ul {
     0 0 40px rgba(0, 0, 0, 0.1) inset;
   -moz-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1),
     0 0 40px rgba(0, 0, 0, 0.1) inset;
-  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0 3px 7px rgb(0 0 0 / 14%), 0 0 40px rgb(0 0 0 / 10%) inset;
 }
 .navbar {
   background: #ffffff;
@@ -161,8 +162,11 @@ ul {
 }
 .box-news .news-item-top .content {
   position: absolute;
-    background: #ffffffe0;
+    background: #fbfbfbf0;
     bottom: 0;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f9f9f9;
 }
 .box-news .news-item-top .content .news-title {
   line-height: 24px;
@@ -181,10 +185,11 @@ ul {
   max-height: 48px;
   overflow: hidden;
   margin-bottom: 0px;
+  color: #323232;
 }
 .box-news .news-item-top .content .news-title .time{background: url(../img/calendar.png);
-    font-size: 16px;
-    color: #9c9c9e;
+    font-size: 14px;
+    color: #b4b4ba;
     font-weight: bold;
     background-repeat: no-repeat;
     padding-left: 22px;
@@ -308,7 +313,7 @@ ul {
   color: #b4b4ba;
 }
 .list-item .datetime .time {
-  line-height: 22px;
+  line-height: 22px;font-size: 14px;
 }
 .list-item .title a:hover {
   color: #11468b;
@@ -387,7 +392,7 @@ ul {
   background: url(../img/bg-dangbo.png);
 }
 .list-cate .dangbo .txt {
-  font-size: 25px;
+  font-size: 23px;
   color: #2a5dc4;
 }
 
@@ -510,7 +515,9 @@ ul {
   text-transform: uppercase;
   display: block;
   line-height: 56px;
+  text-align: center;
 }
+.sup-menu li:first-child a {text-align: left;padding-left: 40px;}
 .cate-tab {
   float: left;
   width: 100%;
@@ -561,6 +568,7 @@ ul {
   padding-left: 40px;
   margin-top: 20px;
   position: relative;
+  min-height: 87px;
 }
 .cate-tab .ct-content-item::before {
   content: "\e803";
@@ -599,7 +607,7 @@ ul {
 .ct-content-button {
   float: left;
   width: 100%;
-  margin-top: 24px;
+  margin-top: 10px;
 }
 .cate-tab .ct-content-button .btn-viewmore {
   border: 1px solid #d3d3d3;
@@ -710,6 +718,7 @@ ul {
   background: url(../img/bg-chuyenmuc.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: 0px 1px;
 }
 .cate-list::-webkit-scrollbar {
   background-color: #fff;
@@ -1126,8 +1135,8 @@ ul {
   right: 40px;
   background: #fbfbfb;
   width: 190px;
-  height: 62px;
-  bottom: -19px;
+  height: 58px;
+  bottom: -13px;
   display: none;
 }
 .search .box-search .input-search {
