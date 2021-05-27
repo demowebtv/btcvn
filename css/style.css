@@ -1943,4 +1943,32 @@ ul {
 [data-toggle="collapse"].collapsed .fa:before {
     content: " \25BC";
 }
-
+.btnrating{padding: 4px 10px;}
+/*----------- comment vote --------------*/
+.rating-block{padding: 20px;}
+.point_vote{font-size: 36px; font-weight: bold;color: #000;}
+.point_vote small{color: #838583;}
+.btn-default{border: 1px solid #b3aeae;}
+.div-star{margin: 5px 0;}
+.btn-warning .fa{color: #FFF;}
+.div-star .progress,.div-star .progress-bar{height: 25px;font-size: 14px;}
+.div-vote-btn{text-align: right;}
+.div-vote-btn button{margin-bottom: 20px;}
+.hide-comment{border-bottom: 1px solid #ebebeb;}
+.list_comment{border-bottom: 1px solid #ebebeb;padding: 10px 0;}
+.comment-text{font-size: 14px; color: #535353; padding: 10px 0;margin: 0;}
+.comment-auth{position: relative;
+    float: left;
+    width: 100%;}
+.comment-auth .thumb{width: 80px;
+    height: 80px;
+    float: left;
+    overflow: hidden;
+    border: 1px solid #ebebeb;
+    background: #FFF;
+    margin-right: 20px;border-radius: 5px;
+}
+.comment-auth .thumb img{height: auto; width: 100%;
+    padding: 10px 15px;;}
+.comment-name{font-size: 16px; color: #535353;font-weight: bold}
+.comment-time{font-size: 13px; color: #a7a7a7;}
