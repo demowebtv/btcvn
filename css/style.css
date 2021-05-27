@@ -1787,6 +1787,8 @@ ul {
 .rating .rating-content {
     background: #fcfcfc;
     padding: 10px;
+    border: 1px solid #f7f7f7;
+    margin: 10px 0;
 }
 /* category */
 .top-news-cate .news-item .ni-content .title-news{
@@ -1925,3 +1927,20 @@ ul {
 }
 .v-item .video-title{min-height: 60px;}
 .v-item img{text-align: center;padding-bottom: 5px;}
+/*---------vote----------*/
+.number_vote{background: url("../img/icon_user.png") no-repeat;padding-left: 20px;font-size: 16px; color: #000000; margin: 30px 0;}
+.progress,.progress-bar{height: 30px; font-size: 18px;font-weight: bold;}
+.progress_title{color: #373737; font-size: 18px;margin: 0;}
+.btn_vote{padding: 2px 30px;background: #2673b4; border-radius: 3px; font-weight: bold}
+.vote_select .row{padding-bottom: 10px;}
+.vote_title{font-size: 16px;color: #373737; padding-top: 20px;}
+.form-check-inline{display: table;padding: 10px 0; font-size: 14px; color: #373737;}
+.vote_select .check_select{ width: 40px; height: 30px;vertical-align: middle;}
+.form-check-label{vertical-align: middle;}
+[data-toggle="collapse"] .fa:before {
+    content: " \25B2";
+}
+[data-toggle="collapse"].collapsed .fa:before {
+    content: " \25BC";
+}
+

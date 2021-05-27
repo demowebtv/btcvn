@@ -880,7 +880,7 @@
   }
   .tin_tuc .list-news-items{height: auto;}
   .tin_tuc .right-item .img-fluid{width: 100%;}
-  .tin_tuc .ha-ps-list{padding-left: 15px;}
+  .tin_tuc .ha-ps-list{padding-left: 25px;}
   .tin_tuc .ha_new .image{padding: 10px;}
   .tin_tuc .ha_new .content{padding: 10px 10px 0 10px}
   .bnc-image{
@@ -925,6 +925,7 @@
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
   }
+  .btn-last{margin-top: 20px;}
 }
 
 @media screen and (max-width: 767px) {
