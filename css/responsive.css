@@ -926,8 +926,9 @@
     -webkit-box-orient: vertical;
   }
   .div-vote-btn{text-align: left;
-    margin: 20px 0 0 20px;
   }
+  .rating-block{padding: 10px;}
+  .div-vote-btn button{margin-top:10px;}
   .rating .rating-content{padding: 0;}
   .comment-content{padding-top: 10px;}
   .btn-last{margin-top: 20px;}

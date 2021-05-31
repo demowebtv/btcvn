@@ -290,7 +290,7 @@
                         <div class="rating-content">
                             <div class="row">
                                 <div class="col-12 col-md-5">
-                                    <div class="rating-block">
+                                    <div class="rating-block rating-block-left">
                                         <h4>Điểm bình chọn</h4>
                                         <p class="point_vote"><span class="selected-rating">4</span><small> / 5</small>
                                         </p>
@@ -319,8 +319,8 @@
                                         <div class="number_vote mt-2 mb-0">1,580,000 lượt bình chọn</div>
                                     </div>
                                 </div>
-                                <div class="col-12 col-md-4">
-                                    <div class="rating-block">
+                                <div class="col-12 col-md-7">
+                                    <div class="rating-block ">
                                         <div class="pull-left div-star">
                                             <div class="pull-left pr-1">
                                                 <i class="fa fa-star" aria-hidden="true"></i> 5
@@ -334,7 +334,6 @@
                                                     </div>
                                                 </div>
                                             </div>
-
                                         </div>
                                         <div class="pull-left div-star">
                                             <div class="pull-left pr-1">
@@ -391,11 +390,12 @@
                                                 </div>
                                             </div>
                                         </div>
+                                        <div class="div-vote-btn w-100">
+                                            <button class="btn btn-primary btn_vote">Bình chọn</button>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="col-12 col-md-3 div-vote-btn align-self-end">
-                                    <button class="btn btn-primary btn_vote">Bình chọn</button>
-                                </div>
+
                             </div>
                         </div>
                         <h2>Bình Luận</h2>
@@ -633,61 +633,8 @@
 <script src="js/jquery-1.11.3.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/owl.carousel.min.js"></script>
+<script src="js/custom.js"></script>
 <script>
-    $(document).ready(function () {
-        $("#slider").owlCarousel({
-            autoPlay: false,
-            autoplayTimeout: 5000,
-            slideSpeed: 500,
-            items: 4,
-            navigation: true,
-            itemsDesktop: [1376, 4],
-            itemsDesktopSmall: [1375, 3],
-            itemsMobile: [1024, 3],
-            itemsMobile: [768, 2],
-            itemsMobile: [767, 1],
-            navigationText: ["", ""],
-        });
-
-        $(".box-tab .tab-heading-item").on("click", function () {
-            var me = $(this);
-            var idSource = me.data("target");
-            me.parents(".box-tab")
-                .find(".tab-heading-item")
-                .removeClass("active");
-            me.addClass("active");
-            me.parents(".box-tab").find(".tab-content-item").hide();
-            me.parents(".box-tab")
-                .find('.tab-content-item[data-source="' + idSource + '"]')
-                .show();
-        });
-        $(".sub-tab .sub-tab-item").on("click", function () {
-            var me = $(this);
-            var idSource = me.data("target");
-            me.parents(".sub-tab").find(".sub-tab-item").removeClass("active");
-            me.addClass("active");
-            me.parents(".box-tab").find(".sub-tab-content-item").hide();
-            me.parents(".box-tab")
-                .find('.sub-tab-content-item[data-source="' + idSource + '"]')
-                .show();
-        });
-
-        $(".btn-search").on("click", function () {
-            var me = $(this);
-            me.parents(".search").toggleClass("active");
-        });
-        $('.btn-menu').on("click", function () {
-            $('#menu-mobile .head-menu').addClass("open");
-        });
-        $('#closemenu').on("click", function () {
-            $('#menu-mobile .head-menu').removeClass("open");
-        });
-
-        $('.btn-search-mobile a').on("click", function () {
-            $('.search-box').toggleClass("open");
-            $('.opacity').toggleClass("hidden");
-        });
-    });
     jQuery(document).ready(function ($) {
 
         $(".btnrating").on('click', (function (e) {
@@ -707,10 +654,7 @@
                 $("#rating-star-" + ix).toggleClass('btn-warning');
                 $("#rating-star-" + ix).toggleClass('btn-default');
             }
-
         }));
-
-
     });
 </script>
 </body>
