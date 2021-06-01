@@ -62,8 +62,9 @@
   .list-cate .hanhchinh .txt2 {
     font-size: 16px;
   }
+  .news-child{padding: 5px;}
   .news-child .news-item {
-    width: 33.33%;
+    width: 100%;
     margin: 0px;
     padding: 0 5px;
   }
@@ -617,13 +618,14 @@
     height: auto;
   }
   .website-link .web-item a {
-    font-size: 18px;
+    font-size: 14px;
   }
+  .col-right .right-item{margin-bottom: 0;}
   .right-item .info-link-item,
   .right-item .info-link-item.dang {
     background-repeat: no-repeat;
     background-size: cover;
-    height: 80px;
+    height: 60px;
     border-radius: 10px;
   }
   .ft-left {

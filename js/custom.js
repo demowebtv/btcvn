@@ -1,4 +1,17 @@
 $(document).ready(function(){
+  $("#home-new-slide").owlCarousel({
+    autoPlay: true,
+    autoplayTimeout: 5000,
+    slideSpeed: 500,
+    items: 3,
+    navigation: false,
+    itemsDesktop: [1376, 3],
+    itemsDesktopSmall: [1375, 3],
+    itemsMobile: [1024, 1],
+    itemsMobile: [768, 1],
+    itemsMobile: [767, 1],
+    navigationText: ["", ""],
+  });
   $("#slider").owlCarousel({
     autoPlay: false,
     autoplayTimeout: 5000,
