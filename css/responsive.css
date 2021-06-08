@@ -246,6 +246,7 @@
   .list-cate{background: #FFF;}
   .tin_tuc .item-news-common .thumb{width: 100px;height: 70px;}
   .tin_tuc .item-news-common{padding-right: 5px;}
+  .thongke-item .cate-tab .ct-content-item::before{top:-8px;}
 .btnrating{padding: 4px 10px;}
 }
 @media screen and (max-width: 812px) {
@@ -557,6 +558,7 @@
     overflow: hidden;
     text-overflow: ellipsis;
   }
+  .thongke-item .cate-tab .ct-content-item::before{top:-8px;}
   .tin_tuc .list-news-items{ height: 560px;}
   .tin_tuc .right-item .img-fluid{width: 100%;}
   .ct-content-item .title a{overflow: hidden;
@@ -1075,6 +1077,11 @@
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
   }
+  .thongke-item .cate-tab .ct-content-item::before {
+    top: -8px;
+    left: 15px;
+  }
+  .thongke-item .ct-content-item{padding-left:40px;}
 }
 
 
