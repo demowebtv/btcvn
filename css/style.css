@@ -1987,10 +1987,11 @@ ul {
     position: relative;
     min-height: 0px;
 }
-.thongke-item .cate-tab .ct-content-item::before{top: 3px;}
+.thongke-item .cate-tab .ct-content-item::before{top: 3px;left: 40px}
 .thongke-item .ct-content-item span{color: #bbbcbc;font-size: 14px;}
 .thongke-item .ct-content-item{border-bottom: 1px solid #ebebeb;}
 .thongke-item .cate-tab .ct-content-button .btn-viewmore{margin: 10px 20px 20px 20px;}
+.thongke-item .ct-content-item{padding-left: 60px;}
 .thongke-right .collapsible,.thongke-box-right .text-title {
     background: #1170c0;
     color: white;
