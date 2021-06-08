@@ -764,7 +764,6 @@ ul {
     background: white;
     box-shadow: 0px 3px 7px #d3d3d3;
 }
-
 .scroll-table {
     overflow-y: auto;
     scrollbar-color: #eee #fff;
@@ -1972,3 +1971,79 @@ ul {
     padding: 10px 15px;;}
 .comment-name{font-size: 16px; color: #535353;font-weight: bold}
 .comment-time{font-size: 13px; color: #a7a7a7;}
+/* thong ke  */
+.thongke-item {
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+    background: white;
+    box-shadow: 0px 3px 7px #d3d3d3;
+}
+.ct-content-item {
+    float: left;
+    width: 100%;
+    padding-left: 40px;
+    margin-top: 10px;
+    position: relative;
+    min-height: 0px;
+}
+.thongke-item .cate-tab .ct-content-item::before{top: 3px;}
+.thongke-item .ct-content-item span{color: #bbbcbc;font-size: 14px;}
+.thongke-item .ct-content-item{border-bottom: 1px solid #ebebeb;}
+.thongke-item .cate-tab .ct-content-button .btn-viewmore{margin: 10px 20px 20px 20px;}
+.thongke-right .collapsible,.thongke-box-right .text-title {
+    background: #1170c0;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+.thongke-right .collapsible:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.thongke-right .active:after {
+    content: "\2212";
+}
+
+.thongke-right .content {
+    padding: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background: #FFF;
+}
+.thongke-right .content .list-items a,.content-text .list-items a{padding: 2px;}
+.thongke-right .content .list-items a:hover,.content-text .list-items a:hover{color: #2673b4;}
+.thongke-right .content .list-items:last-child,.content-text .list-items:last-child{
+padding-bottom: 10px;
+}
+.thongke-right .content .list-items,.content-text .list-items{border-bottom: 1px solid #ebebeb; padding:10px 20px;padding-left: 30px;}
+.thongke-right .content .list-items:first-child,.content-text .list-items:first-child{padding-top: 10px;}
+.thongke-right .content .list-items::before,.content-text .list-items::before {
+    content: "\e803";
+    font-family: "fontello";
+    font-size: 18px;
+    color: #2673b4;
+    position: absolute;
+    left: 19px;
+    height: 100%;
+    float: left;
+}
+.content-text .list-items::before{left: 33px;}
+.thongke-box-right{
+    margin-bottom:20px;
+    background: white;
+    box-shadow: 0px 3px 7px #d3d3d3;}
